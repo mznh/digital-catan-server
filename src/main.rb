@@ -12,6 +12,8 @@ require_relative "./game_master"
 game_master = GameMaster.new()
  
 loop do
+  ## 雑に１秒ごと進行
+  sleep(1)
   game_master.work
   if game_master.work_completed? then
     break

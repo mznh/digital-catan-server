@@ -1,8 +1,8 @@
 
 
 module CommandType
-  PUT_ROAD_KOMA = 'put road koma'
-  REMOVE_ROAD_KOMA = 'remove road koma'
+  PUT_ROAD = 'PUT_ROAD'
+  REMOVE_ROAD = 'REMOVE_ROAD'
 end
 
 
